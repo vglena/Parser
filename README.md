@@ -71,3 +71,30 @@ You can extend or modify these rules in `parser.py` to handle new sentence patte
   Tokenizes and cleans input text.
 - `np_chunk(tree)`:
   Extracts all minimal noun phrase chunks from a parse tree.
+
+  ## 🧠 Example Output
+```python
+  $ python parser.py sentences/1.txt
+Tree:
+(S
+  (NP (Det the) (N detective))
+  (PP (P in) (NP (Det the) (N armchair)))
+  (V smiled)
+)
+
+Noun Phrase Chunks:
+- the detective
+- the armchair
+```
+
+## 📦 Requirements
+
+Your `requirements.txt` should include:
+```text
+nltk==3.9.1
+```
+## 🧾 License
+
+This project is licensed under the MIT License — you’re free to use, modify, and distribute it with attribution.
+
+
