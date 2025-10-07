@@ -97,4 +97,11 @@ nltk==3.9.1
 
 This project is licensed under the MIT License — you’re free to use, modify, and distribute it with attribution.
 
+## 💡 Notes
+You can expand the grammar to support compound sentences, prepositional phrases, and conjunctions.
+For advanced exploration, visualize parse trees using:
+```python
+tree.draw()
+```
+
 
